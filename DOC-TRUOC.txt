@@ -1,0 +1,19 @@
+MÃ NGUỒN MINISHOP SAU BUỔI 04 (PHP 02: tài khoản, giỏ hàng, đặt hàng)
+
+Trạng thái: đúng cuối Lab 4.5.
+- Đăng ký, đăng nhập, đăng xuất (session, mật khẩu băm).
+- Giỏ hàng bằng session, đặt hàng trong một giao dịch, lịch sử đơn hàng.
+- Chưa có khu vực quản trị, chưa có mã CSRF và .htaccess (thuộc Buổi 05).
+
+Cài đặt trên XAMPP:
+1. Chép thư mục "minishop" vào C:\xampp\htdocs\
+2. Bật Apache và MySQL trong XAMPP Control Panel.
+3. Trong phpMyAdmin tạo cơ sở dữ liệu "minishop" (bảng mã utf8mb4_unicode_ci),
+   rồi Import tệp minishop/database/minishop.sql
+4. Mở http://localhost/minishop/
+   (KHÔNG dùng Live Server và không nhấp đúp vào tệp .php)
+5. Đăng ký một tài khoản trên website để thử mua hàng.
+
+Lưu ý:
+- Ảnh sản phẩm trong images/ (sp01.jpg ... sp06.jpg) là ảnh minh họa 800x800.
+- Chưa gồm lời giải bài tập về nhà của Buổi 04.
